@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+body {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
 .wrapper {
   width: 100%;
 }
@@ -8,7 +12,7 @@ header {
   display: flex;
   align-items: center;
   width: 100%;
-  height: 72px;
+  height: 80px;
   position: fixed;
   top: 0;
   left: 0;
@@ -17,10 +21,10 @@ header {
 }
 
 .header-title {
-  font-size: 22px;
+  font-size: 25px;
   font-weight: 700;
   color: #000;
-  margin: 0 30px;
+  margin: 0 40px;
 }
 
 .portfolio-main {
@@ -63,7 +67,7 @@ header {
 }
 
 .portfolio-title {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 700;
   margin: 10px 5px 5px 5px;
 }
