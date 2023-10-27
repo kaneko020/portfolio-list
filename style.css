@@ -42,13 +42,13 @@ header {
   color: #000;
 }
 
-.portfolio-content a:hover img {
+.portfolio-content>a:hover img {
   transition: .2s ease-in-out;
   transform: translate(-5px,-5px);
   box-shadow: 5px 5px;
 }
 
-.portfolio-content a:active img {
+.portfolio-content>a:active img {
   transition: .1s ease-in-out;
   transform: translate(5px,5px);
   box-shadow: none;
@@ -73,6 +73,10 @@ header {
   font-weight: 400;
   margin: 0 5px;
   color: #6b6b6b;
+}
+
+.portfolio-reference span {
+  margin-right: 5px;
 }
 
 .portfolio-reference:hover {
