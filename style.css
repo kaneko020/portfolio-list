@@ -8,7 +8,7 @@ body {
   width: 100%;
 }
 
-header {
+.header {
   display: flex;
   align-items: center;
   width: 100%;
@@ -17,7 +17,6 @@ header {
   top: 0;
   left: 0;
   z-index: 100;
-  opacity: 0.7;
 }
 
 .header-title {
@@ -32,11 +31,17 @@ header {
   padding-top: 72px;
 }
 
+.jutjoy-logo img {
+  width: 160px;
+  height: 100%;
+  margin: 30px 80px 0;
+}
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 40px;
+  padding: 10px 40px 40px;
 }
 
 .portfolio-content {
@@ -85,5 +90,12 @@ header {
 
 .portfolio-reference:hover {
   color: #000;
-  border-bottom: #454545 1px solid;
+}
+
+.footer {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: #000 1px solid;
 }
